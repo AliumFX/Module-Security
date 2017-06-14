@@ -1,0 +1,9 @@
+<Project>
+    <PropertyGroup>
+        <VersionPrefix>0.1.0</VersionPrefix>
+        <VersionSuffix>alpha</VersionSuffix>
+
+        <Product>Alium Frameowkr: Security Module</Product>
+        <RepositoryUrl>https://github.com/AliumFX/Module-Security</RepositoryUrl>
+    </PropertyGroup>
+</Project>
