@@ -17,7 +17,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alium.Security.Abstractions", "src\Alium.Security.Abstractions\Alium.Security.Abstractions.csproj", "{0B0D2BED-1CDD-406A-98CA-1990DC74A538}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alium.Security.Abstractions", "src\Alium.Security.Abstractions\Alium.Security.Abstractions.csproj", "{0B0D2BED-1CDD-406A-98CA-1990DC74A538}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build-template", "build-template", "{A8358BED-EAF9-48E2-847E-284F530BBAD2}"
+	ProjectSection(SolutionItems) = preProject
+		build-template\.gitignore = build-template\.gitignore
+		build-template\build.cake = build-template\build.cake
+		build-template\build.ps1 = build-template\build.ps1
+		build-template\build.sh = build-template\build.sh
+		build-template\build.targets = build-template\build.targets
+		build-template\Key.snk = build-template\Key.snk
+		build-template\LICENSE = build-template\LICENSE
+		build-template\packages.props = build-template\packages.props
+		build-template\README.md = build-template\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,5 +48,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0B0D2BED-1CDD-406A-98CA-1990DC74A538} = {1D7A16D3-8C2B-4E77-8CEF-0638933A91E7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65CD4F61-0CE0-4CD2-8A4B-5F775891431D}
 	EndGlobalSection
 EndGlobal
